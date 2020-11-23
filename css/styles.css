@@ -1,0 +1,387 @@
+body {
+  background-color: #F4EEFF;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hob-button:hover {
+  background-color: #F4EEFF;
+  color: #6A097D;
+  border: 2px solid;
+  border-color: #6A097D;
+}
+.pho-button:hover {
+  background-color: #F4EEFF;
+  color: #6A097D;
+  border: 2px solid;
+  border-color: #6A097D;
+}
+
+.hob-button {
+  position: absolute;
+  text-decoration: none;
+  padding: 20px 15px 20px 15px;
+  background-color: #6A097D;
+  font-size: 130%;
+  float: left;
+  left: 50px;
+  color: #F4EEFF;
+  font-family: 'Indie Flower', cursive;
+}
+.pho-button {
+  text-decoration: none;
+  padding: 20px 15px 20px 15px;
+  background-color: #6A097D;
+  font-size: 130%;
+  float: right;
+  position: absolute;
+  right: 50px;
+  color: #F4EEFF;
+  font-family: 'Indie Flower', cursive;
+}
+.nav-button {
+  margin-top: 50px;
+}
+
+h1 {
+  color: #000000;
+  display: block;
+  font-family: 'Courgette', cursive;
+  font-size: 400%;
+  margin: 0 auto 0 auto;
+  position: relative;
+  top: 245px;
+  width: 100%;
+  text-align: center;
+}
+
+/************************************Below containes Title Display w/ Ellipse CSS *****************************************************/
+.semi-1 {
+  background-color: #6A097D;
+  border-radius: 64px 64px 0 0;
+  height: 64px;
+  width: 128px;
+  position: absolute;
+  left: 380px;
+  top: 201px;
+}
+.semi-2 {
+  background-color: #6A097D;
+  border-radius: 64px 64px 0 0;
+  height: 64px;
+  width: 128px;
+  position: absolute;
+  left: 508px;
+  top: 201px;
+}
+.semi-3 {
+  background-color: #6A097D;
+  border-radius: 64px 64px 0 0;
+  height: 64px;
+  width: 128px;
+  position: absolute;
+  left: 636px;
+  top: 201px;
+}
+.semi-4 {
+  background-color: #6A097D;
+  border-radius: 64px 64px 0 0;
+  height: 64px;
+  width: 128px;
+  position: absolute;
+  left: 764px;
+  top: 201px;
+}
+.semi-5 {
+  background-color: #6A097D;
+  border-radius: 64px 64px 0 0;
+  height: 64px;
+  width: 128px;
+  position: absolute;
+  left: 284px;
+  top: 297px;
+  transform: rotate(270deg);
+}
+.semi-6 {
+  background-color: #6A097D;
+  border-radius: 64px 64px 0 0;
+  height: 64px;
+  width: 128px;
+  position: absolute;
+  left: 860px;
+  top: 297px;
+  transform: rotate(90deg);
+}
+.semi-7 {
+  background-color: #6A097D;
+  border-radius: 64px 64px 0 0;
+  height: 64px;
+  width: 128px;
+  position: absolute;
+  left: 380px;
+  top: 393px;
+  transform: rotate(180deg);
+}
+.semi-8 {
+  background-color: #6A097D;
+  border-radius: 64px 64px 0 0;
+  height: 64px;
+  width: 128px;
+  position: absolute;
+  left: 508px;
+  top: 393px;
+  transform: rotate(180deg);
+}
+.semi-9 {
+  background-color: #6A097D;
+  border-radius: 64px 64px 0 0;
+  height: 64px;
+  width: 128px;
+  position: absolute;
+  left: 636px;
+  top: 393px;
+  transform: rotate(180deg);
+}
+.semi-10 {
+  background-color: #6A097D;
+  border-radius: 64px 64px 0 0;
+  height: 64px;
+  width: 128px;
+  position: absolute;
+  left: 764px;
+  top: 393px;
+  transform: rotate(180deg);
+}
+
+
+.title-display {
+  margin: 0;
+  padding: 100px;
+  height: auto;
+}
+
+/********************************************End of Title Display *************************************************/
+
+.profile {
+  width: 50%;
+  margin: auto;
+}
+.profile-pic1 {
+  width: 550px;
+  height: 550px;
+  margin: 250px auto 0 auto;
+  display: block;
+}
+.side-pic-1 {
+  position: absolute;
+  width: 225px;
+  height: 225px;
+  top: 750px;
+  left: 50px;
+}
+.side-pic-2 {
+  position: absolute;
+  width: 225px;
+  height: 225px;
+  right: 50px;
+  top: 750px;
+}
+.profile-pics {
+  background-color: #F4EEFF;
+  height: 700px;
+  width: 100%;
+}
+
+/******************************************** 3 Item Choices **********************************/
+
+.gaming {
+  height: 250px;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+}
+.gaming:hover {
+  border-style: solid;
+  width: 246px;
+  height: 246px;
+  border-width: 2px;
+  border-radius: 50%;
+  border-color: #f1d4d4;
+}
+.b-ball {
+  height: 250px;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+}
+.b-ball:hover {
+  border-style: solid;
+  width: 246px;
+  height: 246px;
+  border-width: 2px;
+  border-radius: 50%;
+  border-color: #f1d4d4;
+}
+.craft {
+  height: 250px;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+}
+.craft:hover {
+  border-style: solid;
+  width: 246px;
+  height: 246px;
+  border-width: 2px;
+  border-radius: 50%;
+  border-color: #f1d4d4;
+}
+/** HERE IS ANOTHER POTENTIAL FONT THAT IS EMBEDDED IN THIS WEBPAGE ALREADY: font-family: 'Nunito', sans-serif;***/
+/** Another potential font is font-family: 'Indie Flower', cursive; **/
+h2 {
+  color: #c060a1;
+  font-family: 'Indie Flower', cursive;
+  font-size: 350%;
+  text-align: center;
+  margin: 0;
+}
+
+.Top-Section {
+  height: 500px;
+  width: 100%;
+}
+
+.mini-3 {
+  background-color: #6A097D;
+  height: auto;
+  margin-right: 0;
+  width: 100%;
+  padding: 40px 0 20px 0;
+}
+
+.gaming-div {
+display: block;
+width: 33.33%;
+text-align: center;
+margin: 0;
+background-color: #6A097D;
+float: left;
+}
+.ball-div {
+background-color: #6A097D;
+width: 33.33%;
+height: auto;
+text-align: center;
+margin: 0 auto;
+}
+.crafts-div {
+width: 33.33%;
+height: auto;
+text-align: center;
+margin: 0;
+float: right;
+position: absolute;
+right: 0;
+top: 1540px;
+}
+
+h3 {
+  display: inline;
+  color: #F4EEFF;
+}
+
+.cap-text {
+  display: block;
+  color: #F4EEFF;
+  font-size: 145%;
+  font-family: 'Courgette', cursive;
+  width: 100%;
+  margin-top: 15px;
+}
+.cap-text:hover {
+  text-decoration: #c060a1 underline;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  font-size: 130%;
+}
+
+/********************************* Who Am I? Section ************************************************/
+
+.me-descript {
+  background: repeating-linear-gradient(
+    45deg,
+    #6A097D,
+    #6A097D 25px,
+    #F4EEFF 25px,
+    #F4EEFF 50px
+    );
+    margin-top: 100px;
+}
+.who-am-i {
+  background-color: #F4EEFF;
+  width: 75%;
+  margin: auto;
+}
+.who-title {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  display: block;
+  top: 1880px;
+}
+.who-descript {
+  margin: 20px 10px 10px 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 125%;
+}
+.hid-button {
+  width: 15%;
+  padding: 20px 10px 20px 10px;
+  color: #F4EEFF;
+  background-color: #6A097D;
+  margin: 0 auto 20px auto;
+}
+.hid-text {
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.hid-button:hover {
+  background-color: #F4EEFF;
+  color: #6A097D;
+  border: solid 2px #6A097D;
+}
+
+.footer {
+  background-color: #6A097D;
+  color: #F4EEFF;
+  font-family: 'Nunito', sans-serif;
+  font-size: 80%;
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
+/**************************************** About Me Pages ****************************8***************/
+
+.about-descript {
+  text-align: left;
+}
+.reg-h1 {
+  color: #000000;
+  display: block;
+  position: static;
+  font-family: 'Courgette', cursive;
+  font-size: 400%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
